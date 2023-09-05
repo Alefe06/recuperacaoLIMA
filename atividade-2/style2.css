@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+.yellow{
+    display:flex;
+    background-color: rgb(226, 194, 10);
+   
+}
+.yellow  p{
+    color: white;
+    margin-left: 15vh;
+}
+.yellow{
+    .red{
+        color: red;
+        margin-left: 100vh;
+    }
+}
+.black{
+    align-items: center;
+    height: 50px;
+    display:flex;
+    background-color: rgb(0, 0, 0);
+}
+
+.black img{
+    margin-top: 10px;
+    margin-left: 5px;
+    height:30px;
+    width: 30px;
+}
+.black p{
+    
+    font-size: 30px;
+    color: white;
+}
+main{
+    display:flex;
+    justify-content: center;
+    height: 86.2vh;
+    background-size: cover;
+    background-image: url(background.jpg);
+}
+.black2{
+    background-color: rgb(0, 0, 0,.7);
+    width:1200px;
+    margin-top: 150px;
+    height: 400px;
+    
+}
+.black2 p{
+    padding-left: 120px;
+    font-size: 40px;
+    color: white;
+}
+.black2 input{
+    height: 50px;
+    width: 50vh;
+}
